@@ -53,13 +53,13 @@ As you can see from this website, one needs to choose mutual fund, type and star
 
 Thus I have scrapped such information and output the selection list for your reference.
 
-The following picture shows the mutual funds you could choose from with the index and its corresponding name.
+The following picture shows the mutual funds you could choose from with the index and its corresponding name.\n
 ![mf](./rdme_img/2.png)
 
-The following picture shows the Type you could choose with its index and its corresponding type name.
+The following picture shows the Type you could choose with its index and its corresponding type name.\n
 ![type](./rdme_img/3.png)
 
-The following snippet is part of my code designed to allow our staff write down cusmized input and then my program will scrap the data from the website and store them into the file in the format of JSON.
+The following snippet is part of my code designed to allow our staff write down cusmized input and then my program will scrap the data from the website and store them into the file in the format of JSON.\n
 ![input](./rdme_img/4.png)
 
 #### Example
