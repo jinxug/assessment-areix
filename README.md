@@ -35,3 +35,16 @@ By getting the water for every column, the sum will be the result
 for each column, the water hold is decided by the left and right barrier. Thus I try to find the left highest wall and the right highest wall, then the minumum of both wall would decide the water could be hold at the current column, of course we need to subtract the wall/stones already in our current column.
 
 The sum of water in each column will be the result.
+
+#### Result:
+
+As you can see that the outputs are the same with the examples.
+I have also tried some other examples yielding correct results.
+
+## Task 3 - Data Collection
+
+I used Web scrapping to get the mutual fund data on the AMFI website and output the data into a text file n the format of Json to show my web scrapping ability.
+
+#### Analysis
+
+![alt text](https://github.com/jinxug/assessment-areix/rdme_img/Screenshot 2020-09-07 at 11.42.43.png)
