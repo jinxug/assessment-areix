@@ -8,7 +8,7 @@ This problem is trying to output maximum production with the increasing array/li
 
 #### Analysis
 
-    As our goal is to produce the maximum of the products, we try to put the higher satisfaction at the end of the list! Then we just need to compare the result of products with a different start.
+As our goal is to produce the maximum of the products, we try to put the higher satisfaction at the end of the list! Then we just need to compare the result of products with a different start.
 
 #### My solution:
 
