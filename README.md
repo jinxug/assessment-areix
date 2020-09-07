@@ -68,3 +68,14 @@ The following snippet is part of my code designed to allow our staff write down 
 #### Example
 
 Here, I would like to show an example as a guidance:
+Our task is to find the date for the Tata Mutual Fund, Close Ended Schemes from 01-Jul-2020 to 10-Jul-2020.
+By examining the mutual fund list,
+we can see that the Tata mutual fund index is 25 and
+the Close Ended Schemes has index 2
+Thus, we could input our data like this:
+
+![input](./rdme_img/4.png)
+
+Then my program will extract the data:
+
+![input](./rdme_img/5.png)
