@@ -19,3 +19,19 @@ As our goal is to produce the maximum of the products, we try to put the higher 
 #### Result:
 
 As you can see that the outputs are the same with the examples.
+
+## task 2 - Stack, 2 pointers
+
+This problem is trying to output the water contained by the container created by our number lists.
+
+#### Analysis
+
+divide and conquer
+I would divide the problem into a series of sub-problems to get the water contained in each column.
+By getting the water for every column, the sum will be the result
+
+#### My solution
+
+for each column, the water hold is decided by the left and right barrier. Thus I try to find the left highest wall and the right highest wall, then the minumum of both wall would decide the water could be hold at the current column, of course we need to subtract the wall/stones already in our current column.
+
+The sum of water in each column will be the result.
