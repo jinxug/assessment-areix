@@ -131,6 +131,7 @@ Ridge Regression: absolute trainning error = 0.6540600559022338
 1. What kinds of data pre-processing techniques you have applied in this task? and why?
 
 - Normalization
+
   As the A data for each tupple is large and the differences are really small, I tried to normalize the data so that the data could be more meaningful in predicting the labels in the further case.
 
 2. What kinds of machine learning algorithm you have tried in this task?
