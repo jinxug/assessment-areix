@@ -90,11 +90,11 @@ Then my program will convert the data into json format and store it into a text 
 
 ## Task 4 - Machine Learning
 
-#### step 1: Read the data from csv file
+### step 1: Read the data from csv file
 
 I open the CSV file and read the data into my initialized variables
 
-#### Step 1.1: Clean the data
+### Step 1.1: Clean the data
 
 While reading the data, I examine the data to see if they are complete and will delete it from my dataset once it is incomplete.
 
@@ -102,16 +102,15 @@ For the train.csv file, one datum has been incomplete and was not used for the f
 
 For the test.csv, all data could be used
 
-#### Step 2: Normalization
+### Step 2: Normalization
 
 As the A data for each tupple is large and the differences are really small, I tried to normalize the data so that the data could be more meaningful in predicting the labels in the further case.
 
-#### Step 3: Model Setup
+### Step 3: Model Setup
 
-I have tried the 2 simple regression models: Linear regression and Ridge Regression.
-(Their performances are good enough)
+I have tried the 5 simple regression models: Logistic Regression, Naive Bayes, KNN, Linear regression and Ridge Regression.
 
-#### Step 4: Prediction
+### Step 4: Prediction
 
 The result labels were floading point numbers and I round them into the nearest integers.
 
@@ -119,10 +118,41 @@ Both models produce the same result:
 
 Predicted Label: [1.0, 1.0, 4.0, 4.0, 2.0, 2.0, 2.0, 3.0]
 
-#### Step 5: Error Evaluation
+### Step 5: Error Evaluation
 
 I have also output the absolute errors for both models.
 
 OLS Linear Regression: absolute trainning error = 0.6346605957107639
 
 Ridge Regression: absolute trainning error = 0.6540600559022338
+
+### Q&A
+
+1. What kinds of data pre-processing techniques you have applied in this task? and why?
+
+- Normalization
+  As the A data for each tupple is large and the differences are really small, I tried to normalize the data so that the data could be more meaningful in predicting the labels in the further case.
+
+2. What kinds of machine learning algorithm you have tried in this task?
+   I have tried the 5 simple regression models: Logistic Regression, Naive Bayes, KNN, Linear regression and Ridge Regression.
+
+3. Which methods perform the best in this task? and why?
+   KNN performs the best.
+
+Firstly, it is a good algorithm for multi-classes classification.
+It works well since the input is small and the scale has been unified by normalization.
+
+4. How would you deal with the lack of training data in this task?
+   I could probably implement feature reduction by PCA or SVM.
+
+5. How would you handle an imbalanced dataset in this task?
+   I could have use random under-sampling/ over-sampling.
+
+6. How would you perform hyperparameter tuning/optimization in this task?
+
+- For most models, I have used default values.
+- For some models, I used alpha values according to my experience.
+- For some models, I tries many values: e.g. Cs = logspace(-4,4,20)
+
+7. How would you evaluate the model in this task?
+   I have calculated the absolute error between training Y and predicted training Y.
