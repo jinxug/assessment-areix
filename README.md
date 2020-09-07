@@ -82,3 +82,37 @@ Then my program will extract the data:
 
 Then my program will convert the data into json format and store it into a text file.
 [You could refer to this file here.](./result/data.txt)
+(For better view, you could download this data file and check)
+
+## Task 4 - Machine Learning
+
+#### step 1: Read the data from csv file
+
+I open the CSV file and read the data into my initialized variables
+
+#### Step 1.1: Clean the data
+
+While reading the data, I examine the data to see if they are complete and will delete it from my dataset once it is incomplete.
+For the train.csv file, one datum has been incomplete and was not used for the following sessions
+For the test.csv, all data could be used
+
+#### Step 2: Normalization
+
+As the A data for each tupple is large and the differences are really small, I tried to normalize the data so that the data could be more meaningful in predicting the labels in the further case.
+
+#### Step 3: Model Setup
+
+I have tried the 2 simple regression models: Linear regression and Ridge Regression.
+(Their performances are good enough)
+
+#### Step 4: Prediction
+
+The result labels were floading point numbers and I round them into the nearest integers.
+Both models produce the same result:
+Predicted Label: [1.0, 1.0, 4.0, 4.0, 2.0, 2.0, 2.0, 3.0]
+
+#### Step 5: Error Evaluation
+
+I have also output the absolute errors for both models.
+OLS Linear Regression: absolute trainning error = 0.6346605957107639
+Ridge Regression: absolute trainning error = 0.6540600559022338
