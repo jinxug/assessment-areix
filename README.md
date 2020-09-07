@@ -79,3 +79,6 @@ Thus, we could input our data like this:
 Then my program will extract the data:
 
 ![input](./rdme_img/5.png)
+
+Then my program will convert the data into json format and store it into a text file.
+[You could refer to this file here.](./result/data.txt)
