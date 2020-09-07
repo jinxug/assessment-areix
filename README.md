@@ -69,9 +69,13 @@ The following snippet is part of my code designed to allow our staff write down 
 
 Here, I would like to show an example as a guidance:
 Our task is to find the date for the Tata Mutual Fund, Close Ended Schemes from 01-Jul-2020 to 10-Jul-2020.
+
 By examining the mutual fund list,
+
 we can see that the Tata mutual fund index is 25 and
+
 the Close Ended Schemes has index 2
+
 Thus, we could input our data like this:
 
 ![input](./rdme_img/4.png)
@@ -93,7 +97,9 @@ I open the CSV file and read the data into my initialized variables
 #### Step 1.1: Clean the data
 
 While reading the data, I examine the data to see if they are complete and will delete it from my dataset once it is incomplete.
+
 For the train.csv file, one datum has been incomplete and was not used for the following sessions
+
 For the test.csv, all data could be used
 
 #### Step 2: Normalization
@@ -108,11 +114,15 @@ I have tried the 2 simple regression models: Linear regression and Ridge Regress
 #### Step 4: Prediction
 
 The result labels were floading point numbers and I round them into the nearest integers.
+
 Both models produce the same result:
+
 Predicted Label: [1.0, 1.0, 4.0, 4.0, 2.0, 2.0, 2.0, 3.0]
 
 #### Step 5: Error Evaluation
 
 I have also output the absolute errors for both models.
+
 OLS Linear Regression: absolute trainning error = 0.6346605957107639
+
 Ridge Regression: absolute trainning error = 0.6540600559022338
