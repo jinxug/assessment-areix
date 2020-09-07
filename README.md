@@ -47,4 +47,4 @@ I used Web scrapping to get the mutual fund data on the AMFI website and output 
 
 #### Analysis
 
-![alt text](https://github.com/jinxug/assessment-areix/rdme_img/Screenshot 2020-09-07 at 11.42.43.png)
+![alt text](https://github.com/jinxug/assessment-areix/rdme_img/1.png)
