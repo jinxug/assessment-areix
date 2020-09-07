@@ -135,7 +135,8 @@ Ridge Regression: absolute trainning error = 0.6540600559022338
   As the A data for each tupple is large and the differences are really small, I tried to normalize the data so that the data could be more meaningful in predicting the labels in the further case.
 
 2. What kinds of machine learning algorithm you have tried in this task?
-   I have tried the 5 simple regression models: Logistic Regression, Naive Bayes, KNN, Linear regression and Ridge Regression.
+
+I have tried the 5 simple regression models: Logistic Regression, Naive Bayes, KNN, Linear regression and Ridge Regression.
 
 3. Which methods perform the best in this task? and why?
    KNN performs the best.
@@ -144,10 +145,12 @@ Firstly, it is a good algorithm for multi-classes classification.
 It works well since the input is small and the scale has been unified by normalization.
 
 4. How would you deal with the lack of training data in this task?
-   I could probably implement feature reduction by PCA or SVM.
+
+I could probably implement feature reduction by PCA or SVM.
 
 5. How would you handle an imbalanced dataset in this task?
-   I could have use random under-sampling/ over-sampling.
+
+I could have use random under-sampling/ over-sampling.
 
 6. How would you perform hyperparameter tuning/optimization in this task?
 
@@ -156,4 +159,5 @@ It works well since the input is small and the scale has been unified by normali
 - For some models, I tries many values: e.g. Cs = logspace(-4,4,20)
 
 7. How would you evaluate the model in this task?
-   I have calculated the absolute error between training Y and predicted training Y.
+
+I have calculated the absolute error between training Y and predicted training Y.
